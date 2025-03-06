@@ -1,13 +1,11 @@
 const start = document.querySelector('#start')
 const body = document.querySelector('body')
 
-start.onclick = () => {
-    body.innerHTML = `
-    <nav>
+start.onclick = ()=>{
+    assign()
+}
 
+function assign() {
+    document.location.assign("https://google.com")
 
-    
-    <script src="scripts/script.js"></>
-
-    `
-};
+}
